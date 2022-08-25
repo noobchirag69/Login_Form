@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 500px;
+    }
+
+    .content-box {
+        grid-template-columns: 1fr;
+    }
+
+    .login-form {
+        border-radius: 15px 15px 0 0;
+        padding: 20px;
+    }
+
+    .login-banner {
+        border-radius: 0 0 15px 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .login-banner h1 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container {
+        width: 400px;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        width: 350px;
+    }
+    .form-box h1 {
+        font-size: 40px;
+        text-shadow: 0 2px 3px black;
+    }
+    form label {
+        font-size: 13px;
+    }
+    form a {
+        font-size: 13px;
+    }
+    .login-banner h1 {
+        font-size: 36px;
+    }
+    .login-banner p {
+        font-size: 13px;
+    }
+}
