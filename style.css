@@ -1,0 +1,129 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 154, 154), rgb(255, 255, 156));
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 0 3px 15px #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 15px 0 0 15px;
+    display: flex;     
+    align-items: center;
+}
+
+.form-box {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-box h1 {
+    font-size: 52px;
+    color: crimson;
+    text-shadow: 0 3px 5px black;
+}
+
+.login-banner {
+    margin: 0 auto;
+    background-color: crimson;
+    color: bisque;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.login-banner-text {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.login-banner-text h1 {
+    font-size: 52px;
+    text-shadow: 0 3px 5px black;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    margin: 20px;
+    padding: 20px;
+}
+
+.input-block {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 15px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.input-block:focus {
+    border: 2px solid crimson;
+}
+
+.password-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 145, 255);
+}
+
+.login-form form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px #777;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-form form button:hover {
+    background-color: bisque;
+    color: crimson;
+    border: 2px solid crimson;
+}
